@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  width: 100%;
+  height: 40px;
+  background-color: #151515;
+}
+
+@font-face {
+  font-family: Caveat;
+  src: url(../../Fonts/Caveat-Regular.eot);
+  src: url(../../Fonts/Caveat-Regular.ttf);
+  src: url(../../Fonts/Caveat-Regular.woff);
+  src: url(../../Fonts/Caveat-Regular.woff2);
+}
+
+body {
+  font-family: Caveat;
+}
