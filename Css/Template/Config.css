@@ -6,8 +6,6 @@
 
 div.wrapper {
   width: 100%;
-  height: 40px;
-  background-color: #151515;
 }
 
 @font-face {
@@ -20,4 +18,9 @@ div.wrapper {
 
 body {
   font-family: Caveat;
+}
+div.separator{
+  width: 100%;
+  height: 5px;
+  background-color: #b4a5a5;
 }
