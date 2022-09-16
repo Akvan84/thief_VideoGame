@@ -1,0 +1,69 @@
+div.intro {
+  height: 475px;
+  background-image: url(../../Images/GamePage_Header01.jpg);
+  color: #b4a5a5;
+}
+
+div.intro > div.left {
+  display: inline-block;
+  width: 33%;
+  height: auto;
+  text-align: justify;
+  padding: 30px 50px;
+}
+
+div.intro > div.left > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+div.intro > div.left > p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+div.intro > div.middle {
+  display: inline-block;
+  width: 33%;
+  padding: 30px 50px;
+}
+
+div.intro > div.right {
+  display: inline-block;
+  width: 33%;
+  height: auto;
+  text-align: justify;
+  padding: 30px 50px;
+  vertical-align: top;
+}
+
+div.intro > div.right > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+div.intro > div.right > p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+div.intro > div.right > ul {
+  width: inherit;
+  padding-left: 20px;
+}
+div.intro > div.right > ul > li {
+  width: auto;
+}
+
+div.intro > div.right > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #b4a5a5;
+}
