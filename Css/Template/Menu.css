@@ -1,0 +1,43 @@
+div.menu {
+  width: inherit;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #151515;
+}
+
+div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+
+div.menu > nav > ul {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+div.menu > nav > ul > li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+}
+
+div.menu > nav > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #b4a5a5;
+  padding: 0 20px;
+  line-height: 40px;
+}
+
+div.menu > nav > ul > li > a > span {
+  font-size: 20px;
+  padding-right: 5px;
+}
