@@ -1,0 +1,33 @@
+div.gallery {
+  width: 100%;
+  height: calc(730px * 2);
+  background-image: url(../../Images/ParaPic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 30px;
+}
+
+div.gallery > div.photo {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  margin-left: -4px;
+  padding: 30px 20px;
+}
+
+div.gallery > div.photo > img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+div.gallery > div.photo > a {
+  width: inherit;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b4a5a5;
+}
