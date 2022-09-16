@@ -64,6 +64,7 @@ div.intro > div.right > ul > li > a {
   width: inherit;
   height: inherit;
   text-decoration: none;
+  font-weight: bold;
   text-transform: capitalize;
   color: #b4a5a5;
 }
