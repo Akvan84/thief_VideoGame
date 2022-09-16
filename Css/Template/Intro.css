@@ -1,5 +1,7 @@
 div.intro {
+  width: inherit;
   height: 475px;
+  background-repeat: none;
   background-image: url(../../Images/GamePage_Header01.jpg);
   color: #b4a5a5;
 }
@@ -55,6 +57,7 @@ div.intro > div.right > ul {
   width: inherit;
   padding-left: 20px;
 }
+
 div.intro > div.right > ul > li {
   width: auto;
 }

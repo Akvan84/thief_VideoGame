@@ -1,0 +1,64 @@
+div.product {
+  width: inherit;
+  height: 1800px;
+  background-repeat: none;
+  background-image: url(../../Images/Paralax.jpg);
+  color: #b4a5a5;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div.product > div.first {
+  width: inherit;
+  height: 450px;
+}
+
+div.product > div.first > div.left {
+  display: inline-block;
+  width: 48%;
+  height: inherit;
+  text-align: justify;
+  padding: 30px 50px;
+  vertical-align: top;
+}
+
+div.product > div.first > div.right {
+  display: inline-block;
+  width: 52%;
+  height: inherit;
+  text-align: justify;
+  margin-left: -4px;
+}
+
+div.product > div.first > div.left > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  background-color: #301b3f6d;
+}
+
+div.product > div.first > div.left > p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  background-color: #301b3f6d;
+}
+
+div.product > div.first > div.right > div.image {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+div.product > div.first > div.right > div.image > img {
+  padding-top: 20px;
+}
+
+div.product > div.rtl {
+  direction: rtl;
+}
+
+div.product > div.rtl > div.left {
+  direction: ltr;
+}
