@@ -1,0 +1,16 @@
+div.video {
+  width: 100%;
+  height: 600px;
+  padding-top: 100px;
+  background-image: url(../../Images/ParaVideo.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div.video > video {
+  display: block;
+  width: 720px;
+  height: 405px;
+  margin: 0px 200px;
+}
