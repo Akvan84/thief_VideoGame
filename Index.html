@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyWebsite</title>
     <link rel="stylesheet" href="./Icon/css/all.min.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./CSS/Main.css" type="text/css" />
   </head>
   <body>
@@ -44,7 +45,47 @@
       <!-- make separator -->
       <div class="separator"></div>
       <!-- end make separator -->
+      <!-- make swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./Images/Artwork01.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork02.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork03.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork04.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork05.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork06.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork07.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork08.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork09.jpg" alt="ThiefArtwork"></div>
+          <div class="swiper-slide"><img src="./Images/Artwork10.jpg" alt="ThiefArtwork"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- end make swiper -->
     </div>
     <!-- end make website -->
+    <!-- Swiper JS -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
