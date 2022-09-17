@@ -1,10 +1,9 @@
 @import "./template/config.css";
 @import "./template/menu.css";
 @import "./template/swiper.css";
-@import "./template/./intro.css";
-@import "./template/./product.css";
-@import "./template/./video.css";
-@import "./template/./gallery.css";
-@import "./template/./contact.css";
-@import "./template/./social.css";
-@import "floc-off"
+@import "./template/intro.css";
+@import "./template/product.css";
+@import "./template/video.css";
+@import "./template/gallery.css";
+@import "./template/contact.css";
+@import "./template/social.css";
