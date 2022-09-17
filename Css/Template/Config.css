@@ -22,5 +22,21 @@ body {
 div.separator {
   width: 100%;
   height: 5px;
+  background-color: #3c415c;
+}
+
+div.menu_separator {
+  width: 100%;
+  height: 5px;
   background-color: #b4a5a5;
+}
+
+div.design {
+  width: inherit;
+  height: auto;
+  background-color: #151515;
+  color: #b4a5a5;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
 }
