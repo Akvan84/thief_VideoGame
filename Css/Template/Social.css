@@ -1,0 +1,43 @@
+div.social {
+  width: inherit;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #301b3f;
+}
+
+div.social > nav {
+  width: inherit;
+  height: inherit;
+}
+
+div.social > nav > ul {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+div.social > nav > ul > li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+}
+
+div.social > nav > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #b4a5a5;
+  padding: 0 40px;
+  line-height: 100px;
+}
+
+div.social > nav > ul > li > a > span {
+  font-size: 30px;
+  padding-right: 5px;
+}
